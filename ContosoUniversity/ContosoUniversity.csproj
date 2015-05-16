@@ -190,6 +190,10 @@
     <Compile Include="ViewModels\InstructorIndexData.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\ContosoUniversity.DAL.SchoolContext.mdf" />
+    <Content Include="App_Data\ContosoUniversity.DAL.SchoolContext_log.ldf">
+      <DependentUpon>ContosoUniversity.DAL.SchoolContext.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\PagedList.css" />
@@ -250,7 +254,6 @@
     <Content Include="Views\Course\UpdateCourseCredits.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Views\File\" />
   </ItemGroup>
   <ItemGroup>
